@@ -37,9 +37,20 @@ class Game {
 
   constructor(playareaEl) {
     this.playareaEl = playareaEl;
+
     //paddle
     this.paddle = new Entity("paddle", 100, 440, 100, 10);
     this.playareaEl.append(this.paddle.el);
+
+    this.ball = new Entity("ball", 147, 430, 6, 6);
+    this.playareaEl.append(this.ball.el);
+    for (let y = 0; y < 2; y++) {
+      for (let x = 0; x < 15; x++) {
+        const block = new Entity("block", 25 + 40 * x, 20 + 40 * y, 30, 30);
+        this.playareaEl.append(block.el);
+        this.blocks.push(block);
+      }
+    }
   }
 
   start() {}
