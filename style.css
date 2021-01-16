@@ -1,5 +1,5 @@
 /*green theme*/
-/*
+
 #playarea {
   background-color: rgb(9, 173, 110);
   width: 640;
@@ -30,33 +30,33 @@
   color: rgb(217, 255, 0);
   width: 640;
 }
-*/
+
 /*red theme*/
 
-#playarea {
+.theme2 #playarea {
   background-color: rgb(173, 9, 9);
   width: 640;
   height: 480;
   position: relative;
 }
 
-.entity {
+.theme2 .entity {
   position: absolute;
 }
 
-.paddle {
+.theme2 .paddle {
   background-color: rgb(100, 34, 22);
 }
 
-.ball {
+.theme2 .ball {
   background-color: rgb(252, 69, 84);
 }
 
-.block {
+.theme2 .block {
   background-color: rgb(224, 95, 20);
 }
 
-#scorecounter {
+.theme2 #scorecounter {
   font-weight: strong;
   font-size: 100;
   background-color: rgb(128, 19, 0);
