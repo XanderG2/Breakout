@@ -1,5 +1,7 @@
+/*green theme*/
+/*
 #playarea {
-  background-color: red;
+  background-color: rgb(9, 173, 110);
   width: 640;
   height: 480;
   position: relative;
@@ -7,5 +9,57 @@
 
 .entity {
   position: absolute;
-  background-color: salmon;
+}
+
+.paddle {
+  background-color: rgb(22, 100, 56);
+}
+
+.ball {
+  background-color: rgb(69, 252, 160);
+}
+
+.block {
+  background-color: rgb(194, 224, 20);
+}
+
+#scorecounter {
+  font-weight: strong;
+  font-size: 100;
+  background-color: rgb(0, 128, 79);
+  color: rgb(217, 255, 0);
+  width: 640;
+}
+*/
+/*red theme*/
+
+#playarea {
+  background-color: rgb(173, 9, 9);
+  width: 640;
+  height: 480;
+  position: relative;
+}
+
+.entity {
+  position: absolute;
+}
+
+.paddle {
+  background-color: rgb(100, 34, 22);
+}
+
+.ball {
+  background-color: rgb(252, 69, 84);
+}
+
+.block {
+  background-color: rgb(224, 95, 20);
+}
+
+#scorecounter {
+  font-weight: strong;
+  font-size: 100;
+  background-color: rgb(128, 19, 0);
+  color: rgb(255, 51, 0);
+  width: 640;
 }
