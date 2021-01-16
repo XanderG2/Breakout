@@ -61,3 +61,11 @@ window.addEventListener("DOMContentLoaded", () => {
   const game = new Game(document.getElementById("playarea"));
   game.start();
 });
+
+function themeswitch() {
+  if (document.body.className === "theme2") {
+    document.body.className = "theme1";
+  } else if (document.body.className === "theme1") {
+    document.body.className = "theme2";
+  }
+}
