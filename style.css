@@ -1,0 +1,11 @@
+#playarea {
+  background-color: red;
+  width: 640;
+  height: 480;
+  position: relative;
+}
+
+.entity {
+  position: absolute;
+  background-color: salmon;
+}
