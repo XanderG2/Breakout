@@ -5,6 +5,7 @@
   width: 640;
   height: 480;
   position: relative;
+  overflow: hidden;
 }
 
 .entity {
